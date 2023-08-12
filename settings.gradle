@@ -1,2 +1,10 @@
 rootProject.name = 'wikanime'
 
+include ':shared'
+project(':shared').projectDir = file('src/shared')
+
+include ':backoffice'
+project(':backoffice').projectDir = file('src/backoffice')
+
+include ':mwo'
+project(':mwo').projectDir = file('src/mwo')

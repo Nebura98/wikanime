@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4266e1a1-9934-4cea-90f0-5f48936f5d7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/controller/companies/CompanyPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/MwoBackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/CompanyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CompanyCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CreateCompanyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CreateCompanyCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/find/CompanyFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/find/FindCompanyQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/find/FindCompanyQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyCreatedDomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyNotExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/DomainError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/CommandBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/CommandHandlerExecutionError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/DomainEventSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/EventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/QueryBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/QueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/QueryHandlerExecutionError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/BackofficeMangaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/BackofficeMangaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/Manga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/Manga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaLike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaVolume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/infrastructure/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/infrastructure/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/infrastructure/persistence/MySQLBackofficeMangaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/infrastructure/persistence/MySQLBackofficeMangaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/MangaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ContentId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/ReviewComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/ReviewDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/ReviewId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/UserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/UserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/application/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/application/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/AggregateRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Criteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/FilterField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/FilterOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/FilterValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Filters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Filters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/OrderBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/OrderBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/OrderType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/DateValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/DateValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/IntValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/IntValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/StringValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/StringValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infrastructure/hibernate/HibernateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/hibernate/HibernateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infrastructure/persistence/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/persistence/Repository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2TfLyzakpX8CgAYbLlZcC1DRCnp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/haabl/Documents/DDD/wikanime&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="wikanime.shared.domain.bus.command" />
+      <recent name="wikanime.shared.infrastructure.spring" />
+      <recent name="wikanime.shared.domain" />
+      <recent name="wikanime.backoffice.companies.application" />
+      <recent name="wikanime.shared.domain.bus.query" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle run" />
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.wikanime [build]">
+    <configuration name="wikanime [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="wikanime [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="wikanime [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="wikanime [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.wikanime [build]" />
+        <item itemvalue="Gradle.wikanime [bootJar]" />
+        <item itemvalue="Gradle.wikanime [dependencies]" />
+        <item itemvalue="Gradle.wikanime [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4266e1a1-9934-4cea-90f0-5f48936f5d7c" name="Changes" comment="" />
+      <created>1691429451355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691429451355</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
