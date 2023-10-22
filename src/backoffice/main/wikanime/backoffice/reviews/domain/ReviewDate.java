@@ -1,6 +1,6 @@
 package wikanime.backoffice.reviews.domain;
 
-import shared.domain.valueobject.DateValueObject;
+import wikanime.shared.domain.valueobject.DateValueObject;
 
 import java.util.Date;
 

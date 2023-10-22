@@ -1,10 +1,10 @@
 package wikanime.backoffice.characters.domain;
 
-import shared.domain.AggregateRoot;
+import wikanime.shared.domain.AggregateRoot;
 
 public final class Character extends AggregateRoot {
-    private final CharacterId id;
-    private final java.lang.CharacterName name;
+    final CharacterId id;
+    private final CharacterName name;
     private final CharacterMangaId mangaId;
     private final CharacterAge age;
     private final CharacterMangaFirstAppearance mangaFirstAppearance;
@@ -12,10 +12,9 @@ public final class Character extends AggregateRoot {
     private final CharacterHeight height;
     private final CharacterWeight weight;
 
-    public Character(String id, String name, String mangaId, Integer age, Integer mangaFirstAppearance, String gender,
-                     Integer height, Integer weight) {
+    public Character(String id, String name, String mangaId, Integer age, Integer mangaFirstAppearance, String gender, Integer height, Integer weight) {
         this.id = new CharacterId(id);
-        this.name = new java.lang.CharacterName(name);
+        this.name = new CharacterName(name);
         this.mangaId = new CharacterMangaId(mangaId);
         this.age = new CharacterAge(age);
         this.mangaFirstAppearance = new CharacterMangaFirstAppearance(mangaFirstAppearance);

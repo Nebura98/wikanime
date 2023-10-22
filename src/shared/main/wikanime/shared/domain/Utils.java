@@ -13,6 +13,4 @@ public final class Utils {
     public static String dateToString(Timestamp timestamp) {
         return dateToString(timestamp.toLocalDateTime());
     }
-
-
 }

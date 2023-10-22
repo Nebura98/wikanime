@@ -1,8 +1,10 @@
 package wikanime.backoffice.animes.domain;
 
+import wikanime.shared.domain.AggregateRoot;
+
 import java.util.Optional;
 
-public final class Anime {
+public final class Anime extends AggregateRoot {
     private final AnimeId id;
     private final AnimeName name;
     private final AnimeSlug slug;

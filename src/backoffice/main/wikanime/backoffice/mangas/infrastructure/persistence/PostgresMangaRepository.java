@@ -1,14 +1,13 @@
 package wikanime.backoffice.mangas.infrastructure.persistence;
 
-import shared.domain.criteria.Criteria;
-import wikanime.backoffice.mangas.domain.BackofficeMangaRepository;
+import wikanime.backoffice.mangas.domain.MangaRepository;
 import wikanime.backoffice.mangas.domain.Manga;
 import wikanime.backoffice.mangas.domain.MangaId;
 
 import java.util.List;
 import java.util.Optional;
 
-public final class MySQLBackofficeMangaRepository implements BackofficeMangaRepository {
+public final class PostgresMangaRepository implements MangaRepository {
     @Override
     public void save(Manga manga) {
 
@@ -20,7 +19,7 @@ public final class MySQLBackofficeMangaRepository implements BackofficeMangaRepo
     }
 
     @Override
-    public List<Manga> matching(Criteria criteria) {
+    public List<Manga> matching() {
         return null;
     }
 

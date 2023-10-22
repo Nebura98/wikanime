@@ -1,6 +1,6 @@
 package wikanime.backoffice.reviews.domain;
 
-import shared.domain.AggregateRoot;
+import wikanime.shared.domain.AggregateRoot;
 
 import java.util.Date;
 

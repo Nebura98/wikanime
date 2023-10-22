@@ -5,71 +5,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4266e1a1-9934-4cea-90f0-5f48936f5d7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/controller/companies/CompanyPostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/MwoBackendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/CompanyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CompanyCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CreateCompanyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CreateCompanyCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/find/CompanyFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/find/FindCompanyQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/find/FindCompanyQueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyCreatedDomainEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyNotExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/DomainError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/CommandBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/command/CommandHandlerExecutionError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/DomainEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/DomainEventSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/EventBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/QueryBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/QueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/QueryHandlerExecutionError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/query/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/BackofficeMangaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/BackofficeMangaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/Manga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/Manga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaDescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaLike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaRating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/domain/MangaVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/infrastructure/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/infrastructure/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/mangas/infrastructure/persistence/MySQLBackofficeMangaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/infrastructure/persistence/MySQLBackofficeMangaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/MangaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ContentId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/ReviewComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/ReviewDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/ReviewId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/wikanime/reviews/domain/UserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/UserId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/application/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/application/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/AggregateRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Criteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/FilterField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/FilterOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/FilterValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Filters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Filters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/OrderBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/OrderBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/criteria/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/OrderType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/DateValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/DateValueObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/Identifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/IntValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/IntValueObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/domain/valueobject/StringValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/StringValueObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infrastructure/hibernate/HibernateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/hibernate/HibernateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infrastructure/persistence/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/persistence/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/infrastructure/persistence/PostgresAnimeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeSeasonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/infrastructure/persistence/PostgresAnimeSeasonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/infrastructure/persistence/PostgresCharacterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/infrastructure/persistence/PostgresCompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/movies/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/infrastructure/persistence/PostgresReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/studios/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/template/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/infrastructure/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/infrastructure/persistence/PostgresUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/voiceactors/infrastructure/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/controller/companies/CompanyPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/controller/companies/CompanyPostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeSlug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeSlug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeStudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/AnimeStudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeCharacterId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeCharacterId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeSeasonId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeSeason.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeSeason.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeSeasonEpisode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeSeasonEpisode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeStudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeStudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeVoiceActorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animeseasons/domain/AnimeVoiceActorId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterGender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterMangaFirstAppearance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterMangaFirstAppearance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterMangaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterMangaId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/characters/domain/CharacterWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyPresident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyPresident.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/domain/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/infrastructure/persistence/MySQLCompanyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/BackofficeMangaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/Manga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/Manga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaLike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/domain/MangaVolume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/infrastructure/persistence/MySQLBackofficeMangaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/mangas/infrastructure/persistence/PostgresMangaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ContentId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ContentId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/UserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/UserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserDomainName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserDomainName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Criteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/FilterValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Filters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/OrderBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/criteria/OrderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/DateValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/DateValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/StringValueObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/valueobject/StringValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/hibernate/HibernateRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/persistence/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/persistence/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,24 +151,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/haabl/Documents/DDD/wikanime&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/haabl/Documents/DDD/wikanime/src/backoffice/main/wikanime/backoffice/characters/infrastructure",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="wikanime.backoffice.reviews.domain" />
+      <recent name="wikanime.shared.infrastructure.hibernate" />
       <recent name="wikanime.shared.domain.bus.command" />
       <recent name="wikanime.shared.infrastructure.spring" />
       <recent name="wikanime.shared.domain" />
-      <recent name="wikanime.backoffice.companies.application" />
-      <recent name="wikanime.shared.domain.bus.query" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\characters\infrastructure" />
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\voiceactors\infrastructure" />
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\users\infrastructure" />
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\template\infrastructure" />
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\studios\infrastructure" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\animes\infrastructure" />
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\animes" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -262,5 +302,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/infrastructure/persistence/PostgresCompanyRepository.java</url>
+          <line>12</line>
+          <properties class="wikanime.backoffice.companies.infrastructure.persistence.PostgresCompanyRepository" method="save">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package wikanime.backoffice.users.domain;
 
-public class User {
+public final class User {
     private final UserName username;
     private final UserEmail email;
     private final UserPassword password;

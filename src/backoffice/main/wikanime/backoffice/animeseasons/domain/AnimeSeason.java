@@ -1,12 +1,13 @@
 package wikanime.backoffice.animeseasons.domain;
 
-import shared.domain.AggregateRoot;
+
+import wikanime.shared.domain.AggregateRoot;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public final class AnimeSeason extends AggregateRoot {
-    private final AnimeId animeId;
+    private final AnimeSeasonId animeId;
     private final AnimeDirector directorId;
     private final AnimeStudio animeStudioId;
     private final AnimeOrder order;
@@ -14,7 +15,7 @@ public final class AnimeSeason extends AggregateRoot {
     private final Map<String, String> voiceActors;
 
     public AnimeSeason(String animeId, String slug, int order, String animeStudioId, int numberOfEpisodes, String directorId) {
-        this.animeId = new AnimeId(animeId);
+        this.animeId = new AnimeSeasonId(animeId);
         this.directorId = new AnimeDirector(directorId);
         this.animeStudioId = new AnimeStudio(animeStudioId);
         this.order = new AnimeOrder(order);

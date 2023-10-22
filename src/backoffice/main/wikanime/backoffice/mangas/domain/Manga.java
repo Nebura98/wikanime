@@ -1,6 +1,6 @@
 package wikanime.backoffice.mangas.domain;
 
-import shared.domain.AggregateRoot;
+import wikanime.shared.domain.AggregateRoot;
 
 import java.util.Optional;
 
@@ -10,6 +10,7 @@ public final class Manga extends AggregateRoot {
     private final MangaTitle title;
     private final MangaCreator creator;
     private final MangaDescription description;
+
     private final MangaRating rating;
     private final MangaLike likes;
     private final MangaVolume volume;

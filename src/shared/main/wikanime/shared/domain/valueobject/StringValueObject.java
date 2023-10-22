@@ -1,4 +1,4 @@
-package shared.domain.valueobject;
+package wikanime.shared.domain.valueobject;
 
 import java.util.Objects;
 

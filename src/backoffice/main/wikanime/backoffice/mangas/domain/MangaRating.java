@@ -1,6 +1,6 @@
 package wikanime.backoffice.mangas.domain;
 
-import shared.domain.valueobject.IntValueObject;
+import wikanime.shared.domain.valueobject.IntValueObject;
 
 public final class MangaRating extends IntValueObject {
     public MangaRating(Integer value) {

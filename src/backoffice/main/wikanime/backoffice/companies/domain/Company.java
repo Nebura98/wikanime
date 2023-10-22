@@ -25,7 +25,6 @@ public final class Company extends AggregateRoot {
         this.lastYearIncome = null;
     }
 
-
     public static Company create(CompanyId id, CompanyName name, CompanyPresident president, CompanyCountry country, CompanyLastYearIncome lastYearIncome) {
         Company company = new Company(id, name, president, country, lastYearIncome);
 
