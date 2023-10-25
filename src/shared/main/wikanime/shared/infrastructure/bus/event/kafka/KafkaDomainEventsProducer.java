@@ -1,4 +1,4 @@
-package wikanime.shared.infrastructure.bus.event;
+package wikanime.shared.infrastructure.bus.event.kafka;
 
 import org.apache.kafka.clients.producer.Producer;
 import org.springframework.beans.factory.annotation.Autowired;

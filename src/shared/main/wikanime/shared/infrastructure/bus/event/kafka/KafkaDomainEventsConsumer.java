@@ -1,4 +1,4 @@
-package wikanime.shared.infrastructure.bus.event;
+package wikanime.shared.infrastructure.bus.event.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

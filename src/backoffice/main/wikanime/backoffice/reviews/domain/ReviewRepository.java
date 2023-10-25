@@ -5,7 +5,7 @@ import wikanime.shared.infrastructure.persistence.Repository;
 import java.util.List;
 import java.util.Optional;
 
-public interface ReviewRepository extends Repository {
+public interface ReviewRepository {
     void save(Review review);
 
     Optional<Review> search(ReviewId id);
