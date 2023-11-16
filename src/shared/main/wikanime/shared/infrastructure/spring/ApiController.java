@@ -1,9 +1,6 @@
 package wikanime.shared.infrastructure.spring;
 
-import java.util.HashMap;
-
 import org.springframework.http.HttpStatus;
-
 import wikanime.shared.domain.DomainError;
 import wikanime.shared.domain.bus.command.Command;
 import wikanime.shared.domain.bus.command.CommandBus;
@@ -11,6 +8,8 @@ import wikanime.shared.domain.bus.command.CommandHandlerExecutionError;
 import wikanime.shared.domain.bus.query.Query;
 import wikanime.shared.domain.bus.query.QueryBus;
 import wikanime.shared.domain.bus.query.QueryHandlerExecutionError;
+
+import java.util.HashMap;
 
 
 public abstract class ApiController {

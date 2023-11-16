@@ -5,28 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4266e1a1-9934-4cea-90f0-5f48936f5d7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/config/BackofficeBackendServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/config/BackofficeBackendServerPortCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/middleware/BasicHttpAuthMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/frontend/config/BackofficeFrontendServerPortCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/frontend/config/BackofficeFrontendWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/command/ConsumePostgresDomainEventsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/command/ConsumeRabbitMqDomainEventsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/auth/domain/AuthUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/auth/domain/exception/InvalidAuthCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/auth/domain/exception/InvalidAuthUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/DomainEventJsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/DomainEventJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/DomainEventSubscriberInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/DomainEventSubscribersInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/DomainEventsInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/postgresql/PostgresDomainEventsConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/rabbitmq/RabbitMqDomainEventsConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/rabbitmq/RabbitMqExchangeNameFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/rabbitmq/RabbitMqPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/spring/SpringApplicationEventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/config/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/validation/ValidationResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/BackofficeBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/BackofficeBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/frontend/BackofficeFrontendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/frontend/BackofficeFrontendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/auth/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/controller/companies/CompanyPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/backend/controller/companies/CompanyPostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/backoffice/frontend/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/auth/infrastructure/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/MwoBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/MwoBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/command/ConsumeKafkaDomainEventsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/command/ConsumeKafkaDomainEventsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/config/MwoBackendServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/config/MwoBackendServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/command/ConsumeKafkaDomainEventsCommand.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/config/MwoBackendServerPortCustomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/wikanime/apps/mwo/backend/config/MwoBackendServerPortCustomizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/reviews/domain/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/users/domain/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/DomainEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/domain/bus/event/DomainEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaDomainEventsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaDomainEventsConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaDomainEventsProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaDomainEventsProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/postgresql/PostgreSQLEventBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/postgresql/PostgreSQLEventBus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/cli/ConsoleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/cli/ConsoleCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CreateCompanyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/companies/application/create/CreateCompanyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaDomainEventsConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaDomainEventsProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/bus/event/kafka/KafkaProducer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/config/ParameterNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/config/ParameterNotExist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/persistence/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/persistence/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiExceptionMiddleware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiExceptionMiddleware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/main/wikanime/shared/infrastructure/spring/ApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +80,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/backoffice/main/wikanime/backoffice/animes/domain/Anime.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -90,27 +109,27 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17 (2)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/haabl/Documents/Desarrollo/LP/Java/Reversi&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/haabl/Documents/DDD/wikanime/src/backoffice/main/wikanime/backoffice/auth&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="wikanime.shared.infrastructure.bus.event.KafkaDomainEventsConsumer" />
-      <recent name="wikanime.shared.infrastructure.config" />
-      <recent name="wikanime.shared.infrastructure.spring" />
-      <recent name="wikanime.backoffice.reviews.domain" />
-      <recent name="wikanime.shared.infrastructure.hibernate" />
+      <recent name="wikanime.shared.infrastructure.bus.event.spring" />
+      <recent name="wikanime.shared.infrastructure.bus.event.postgresql" />
+      <recent name="wikanime.shared.infrastructure.bus.event.rabbitmq" />
+      <recent name="wikanime.shared.infrastructure.bus.event" />
+      <recent name="wikanime.backoffice.auth.domain.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\auth" />
       <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\characters\infrastructure" />
       <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\voiceactors\infrastructure" />
       <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\users\infrastructure" />
       <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\template\infrastructure" />
-      <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\backoffice\main\wikanime\backoffice\studios\infrastructure" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\haabl\Documents\DDD\wikanime\src\shared\main\wikanime\shared\infrastructure\bus" />
@@ -125,7 +144,7 @@
       <command value="gradle --warning-mode all" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.wikanime">
+  <component name="RunManager" selected="Application.Starter">
     <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wikanime.apps.Starter" />
       <module name="wikanime.main" />
@@ -264,9 +283,14 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wikanime$Starter.ic" NAME="Starter Coverage Results" MODIFIED="1697953982829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>wikanime.apps.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/wikanime$wikanime__dependencies_.ic" NAME="wikanime [dependencies] Coverage Results" MODIFIED="1700024466058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

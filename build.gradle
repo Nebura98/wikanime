@@ -1,7 +1,8 @@
 allprojects {
-    apply plugin: "java"
-    apply plugin: "io.spring.dependency-management"
-    apply plugin: "org.springframework.boot"
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'idea'
 
     java {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -20,19 +21,24 @@ allprojects {
         //Production
         implementation 'org.hibernate:hibernate-core:6.2.7.Final'
         implementation 'javax.persistence:javax.persistence-api:2.2'
-        implementation 'org.springframework:spring-orm:5.3.29'
-        implementation 'org.springframework:spring-context:5.3.29'
-        implementation 'org.springframework.boot:spring-boot-starter-web:3.1.2'
-        implementation 'org.postgresql:postgresql:42.1.4'
+        implementation 'org.springframework:spring-orm:6.0.13'
+        implementation 'org.springframework:spring-context-support:6.0.13'
+        implementation 'org.postgresql:postgresql:42.5.4'
         implementation 'com.google.guava:guava:32.1.3-jre'
-        implementation 'org.apache.kafka:kafka-clients'
-        implementation 'org.springframework.kafka:spring-kafka'
+        implementation 'org.springframework.boot:spring-boot-starter-amqp'
+        implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+        implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.1'
+        implementation 'jakarta.persistence:jakarta.persistence-api:3.2.0-B02'
+        implementation 'org.springframework:spring-webmvc:6.0.13'
+        implementation 'org.reflections:reflections:0.10.2'
+        implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
 
-
+        compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
 
         //Testing
-        testImplementation platform('org.junit:junit-bom:5.9.1')
+        testImplementation platform('org.junit:junit-bom:5.10.0')
         testImplementation 'org.junit.jupiter:junit-jupiter'
+        testImplementation 'com.tngtech.archunit:archunit:1.1.0'
     }
 
     dependencyManagement {
@@ -50,16 +56,16 @@ allprojects {
     }
 
 
-//    task view_paths {
-//        doLast { task ->
-//            println "$task.project.name"
-//            println "------------------"
-//            println "Main: $sourceSets.main.java.srcDirTrees"
-//            println "   Resources: $sourceSets.main.resources.srcDirTrees"
-//            println "Tests: $sourceSets.test.java.srcDirTrees"
-//            println "   Resources: $sourceSets.test.resources.srcDirTrees"
-//        }
-//    }
+    task view_paths {
+        doLast { task ->
+            println "$task.project.name"
+            println "------------------"
+            println "Main: $sourceSets.main.java.srcDirTrees"
+            println "   Resources: $sourceSets.main.resources.srcDirTrees"
+            println "Tests: $sourceSets.test.java.srcDirTrees"
+            println "   Resources: $sourceSets.test.resources.srcDirTrees"
+        }
+    }
 }
 
 subprojects {
@@ -78,15 +84,15 @@ subprojects {
     }
 
     dependencies {
-//        implementation 'org.springframework.boot:spring-boot-starter-web:2.1.8.RELEASE'
+        implementation 'org.springframework.boot:spring-boot-starter-web:3.1.5'
 //
 //        testImplementation rootProject.sourceSets.main.output
 //        testImplementation 'org.springframework.boot:spring-boot-starter-test:2.2.1.RELEASE'
 //
-//        if (project.name != "shared") {
-//            implementation project(":shared")
+        if (project.name != "shared") {
+            implementation project(":shared")
 //            testImplementation project(":shared").sourceSets.test.output
-//        }
+        }
     }
 
     bootJar {
@@ -105,7 +111,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:3.1.2")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:3.1.5")
     }
 }
 
@@ -127,7 +133,7 @@ bootJar {
 }
 
 dependencies {
-//    implementation 'org.springframework.boot:spring-boot-starter-web:2.1.8.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter:3.1.5'
 
     implementation project(":shared")
     implementation project(":backoffice")
